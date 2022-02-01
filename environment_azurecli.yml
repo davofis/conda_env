@@ -1,0 +1,11 @@
+name: azurecli
+channels:
+  - defaults
+  - conda-forge
+  - numba
+dependencies:
+  - python>=3.6.4
+  - pip
+  - ipython
+  - pip:
+    - azure-cli
