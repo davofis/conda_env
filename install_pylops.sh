@@ -28,4 +28,11 @@ fi
 echo 'Checking pylops version and running a command...'
 python -c 'import numpy as np; import pylops; print(pylops.__version__); pylops.Identity(10) * np.ones(10)'
 
+# Install new kernel - pylops
+python -m ipykernel install --user --name pylops
+echo 'New kernel "pylops" installed'
+
+# List available kernels
+jupyter kernelspec list
+
 echo 'Done!'
