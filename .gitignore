@@ -127,3 +127,20 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# DAVID IGNORE ==================================
+# MacOS folder metadata and attributes ----------
+**/.DS_Store
+
+# Python test -----------------------------------
+**/test*.py
+
+# Directories -----------------------------------
+data/
+fig/
+output/
+docs/
+
+# Files -----------------------------------------
+.ftpconfig
+.ftpignore
